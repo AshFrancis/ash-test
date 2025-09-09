@@ -1,0 +1,25 @@
+ACCOUNTS = ["GD4VX4UX5OHFLLMZZTNKN4Q3TL64BTPB552BZGVRQQQDSVCXFDLGI7MX"]
+VERSION = "0.1.0"
+SIGNING_KEY = "GD4VX4UX5OHFLLMZZTNKN4Q3TL64BTPB552BZGVRQQQDSVCXFDLGI7MX"
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+
+[[CURRENCIES]]
+code = "USDC"
+issuer = "GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5"
+status = "test"
+is_asset_anchored = false
+anchor_asset_type = "crypto"
+desc = "Circle USDC Token"
+
+[[CURRENCIES]]
+code = "native"
+status = "test"
+is_asset_anchored = false
+anchor_asset_type = "crypto"
+desc = "XLM, the native asset of the Stellar network."
+
+[DOCUMENTATION]
+ORG_NAME = "Ash Test"
+ORG_URL = "https://test.ashfrancis.com"
+ORG_DESCRIPTION = "This is fun"
+ORG_GITHUB = "ashfrancis"
